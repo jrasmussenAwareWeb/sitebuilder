@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149951ea-29d0-48bc-a69c-014c86d60a48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/navbarLogo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/navbarLogoTextOnly.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/components/navbarLogoWithText.html" />
-      <change type="DELETED" beforePath="C:\sitebuilder\partials\controls\componentList.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/backgroundSection.html" afterPath="$PROJECT_DIR$/partials/components/backgroundSection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/componentService.js" afterPath="$PROJECT_DIR$/js/services/componentService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/modal.html" afterPath="$PROJECT_DIR$/partials/components/modal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/modalWindow.html" afterPath="$PROJECT_DIR$/partials/components/modalWindow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/routing.js" afterPath="$PROJECT_DIR$/js/routing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/row.html" afterPath="$PROJECT_DIR$/partials/components/row.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/rowAdvanced.html" afterPath="$PROJECT_DIR$/partials/components/rowAdvanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/controls/sideNav.html" afterPath="$PROJECT_DIR$/partials/controls/sideNav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/codeInjectionListView.html" afterPath="$PROJECT_DIR$/partials/codeInjectionListView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/componentListView.html" afterPath="$PROJECT_DIR$/partials/componentListView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/contentListView.html" afterPath="$PROJECT_DIR$/partials/contentListView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/functionalListView.html" afterPath="$PROJECT_DIR$/partials/functionalListView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/navigationListView.html" afterPath="$PROJECT_DIR$/partials/navigationListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sitebuilder.iws" />
@@ -40,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routing.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routing.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/routing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.785473">
-              <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -63,8 +54,18 @@
       <file leaf-file-name="navigationListView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/navigationListView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="structuralListView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/structuralListView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5706714">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -74,7 +75,27 @@
         <entry file="file://$PROJECT_DIR$/js/services/componentService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="96" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="96" />
+              <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contentListView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/contentListView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functionalListView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/functionalListView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -97,10 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partials/components/imageGridImage.html" />
-        <option value="$PROJECT_DIR$/partials/components/inlineScript.html" />
-        <option value="$PROJECT_DIR$/partials/components/internalCSS.html" />
-        <option value="$PROJECT_DIR$/partials/components/jumbotron.html" />
         <option value="$PROJECT_DIR$/partials/components/languageSelector.html" />
         <option value="$PROJECT_DIR$/partials/components/listing.html" />
         <option value="$PROJECT_DIR$/partials/components/navbarAlternate.html" />
@@ -125,7 +142,6 @@
         <option value="$PROJECT_DIR$/partials/components/utilityNavigation.html" />
         <option value="$PROJECT_DIR$/partials/components/videoEmbed.html" />
         <option value="$PROJECT_DIR$/partials/components/videoPlayer.html" />
-        <option value="$PROJECT_DIR$/partials/componentListView.html" />
         <option value="$PROJECT_DIR$/partials/components/primaryNavigation.html" />
         <option value="$PROJECT_DIR$/partials/components/accordionItem.html" />
         <option value="$PROJECT_DIR$/partials/components/billboardSlide.html" />
@@ -141,13 +157,18 @@
         <option value="$PROJECT_DIR$/partials/components/rowAdvanced.html" />
         <option value="$PROJECT_DIR$/partials/components/modalWindow.html" />
         <option value="$PROJECT_DIR$/partials/components/modal.html" />
-        <option value="$PROJECT_DIR$/js/services/componentService.js" />
         <option value="$PROJECT_DIR$/partials/controls/sideNav.html" />
         <option value="$PROJECT_DIR$/partials/components/navbar.html" />
         <option value="$PROJECT_DIR$/partials/components/navbarLogo.html" />
         <option value="$PROJECT_DIR$/partials/components/navbarLogoTextOnly.html" />
         <option value="$PROJECT_DIR$/partials/components/navbarLogoWithText.html" />
         <option value="$PROJECT_DIR$/js/routing.js" />
+        <option value="$PROJECT_DIR$/js/services/componentService.js" />
+        <option value="$PROJECT_DIR$/partials/codeInjectionListView.html" />
+        <option value="$PROJECT_DIR$/partials/componentListView.html" />
+        <option value="$PROJECT_DIR$/partials/contentListView.html" />
+        <option value="$PROJECT_DIR$/partials/functionalListView.html" />
+        <option value="$PROJECT_DIR$/partials/navigationListView.html" />
       </list>
     </option>
   </component>
@@ -430,7 +451,7 @@
     <option name="totallyTimeSpent" value="50757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -732,41 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/codeInjectionListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/componentListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56537104">
-          <caret line="77" column="100" selection-start-line="77" selection-start-column="100" selection-end-line="77" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/contentListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/functionalListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/structuralListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27031803">
@@ -774,26 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/componentService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/controls/sideNav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9230769">
           <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/navigationListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -832,8 +802,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/routing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.785473">
-          <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/componentListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.807692">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/codeInjectionListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21024735">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/componentService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/contentListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/functionalListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/navigationListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/structuralListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5706714">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding />
         </state>
       </provider>
