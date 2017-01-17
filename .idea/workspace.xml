@@ -2,84 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149951ea-29d0-48bc-a69c-014c86d60a48" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\accordion-content.png" afterPath="$PROJECT_DIR$/images/icons/components/accordion-content.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\accordion.png" afterPath="$PROJECT_DIR$/images/icons/components/accordion.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\alert.png" afterPath="$PROJECT_DIR$/images/icons/components/alert.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\background-section.png" afterPath="$PROJECT_DIR$/images/icons/components/background-section.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\base-theme-selector.png" afterPath="$PROJECT_DIR$/images/icons/components/base-theme-selector.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\billboard-advanced.png" afterPath="$PROJECT_DIR$/images/icons/components/billboard-advanced.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\billboard.png" afterPath="$PROJECT_DIR$/images/icons/components/billboard.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\blockquote.png" afterPath="$PROJECT_DIR$/images/icons/components/blockquote.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\breadcrumb.png" afterPath="$PROJECT_DIR$/images/icons/components/breadcrumb.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\button.png" afterPath="$PROJECT_DIR$/images/icons/components/button.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\carousel.png" afterPath="$PROJECT_DIR$/images/icons/components/carousel.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\container.png" afterPath="$PROJECT_DIR$/images/icons/components/container.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\copyright.png" afterPath="$PROJECT_DIR$/images/icons/components/copyright.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\css-external.png" afterPath="$PROJECT_DIR$/images/icons/components/css-external.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\css-internal.png" afterPath="$PROJECT_DIR$/images/icons/components/css-internal.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\floating-submenu.png" afterPath="$PROJECT_DIR$/images/icons/components/floating-submenu.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\font-resizer.png" afterPath="$PROJECT_DIR$/images/icons/components/font-resizer.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\footer-navigation.png" afterPath="$PROJECT_DIR$/images/icons/components/footer-navigation.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\google-search-results.png" afterPath="$PROJECT_DIR$/images/icons/components/google-search-results.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\google-translate.png" afterPath="$PROJECT_DIR$/images/icons/components/google-translate.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\html.png" afterPath="$PROJECT_DIR$/images/icons/components/html.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\iframe.png" afterPath="$PROJECT_DIR$/images/icons/components/iframe.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\image-grid-image.png" afterPath="$PROJECT_DIR$/images/icons/components/image-grid-image.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\image-grid.png" afterPath="$PROJECT_DIR$/images/icons/components/image-grid.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\image.png" afterPath="$PROJECT_DIR$/images/icons/components/image.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\jumbotron.png" afterPath="$PROJECT_DIR$/images/icons/components/jumbotron.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\language-selector.png" afterPath="$PROJECT_DIR$/images/icons/components/language-selector.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\listing.png" afterPath="$PROJECT_DIR$/images/icons/components/listing.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\media-list-search.png" afterPath="$PROJECT_DIR$/images/icons/components/media-list-search.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\media-list.png" afterPath="$PROJECT_DIR$/images/icons/components/media-list.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\media-object.png" afterPath="$PROJECT_DIR$/images/icons/components/media-object.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\modal-window.png" afterPath="$PROJECT_DIR$/images/icons/components/modal-window.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\navbar-alternate.png" afterPath="$PROJECT_DIR$/images/icons/components/navbar-alternate.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\navbar-jump.png" afterPath="$PROJECT_DIR$/images/icons/components/navbar-jump.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\navbar.png" afterPath="$PROJECT_DIR$/images/icons/components/navbar.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\pagination-pager.png" afterPath="$PROJECT_DIR$/images/icons/components/pagination-pager.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\panel.png" afterPath="$PROJECT_DIR$/images/icons/components/panel.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\rich-text.png" afterPath="$PROJECT_DIR$/images/icons/components/rich-text.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\row-advanced.png" afterPath="$PROJECT_DIR$/images/icons/components/row-advanced.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\row.png" afterPath="$PROJECT_DIR$/images/icons/components/row.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\script-external.png" afterPath="$PROJECT_DIR$/images/icons/components/script-external.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\script-inline.png" afterPath="$PROJECT_DIR$/images/icons/components/script-inline.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\scroll-to-top.png" afterPath="$PROJECT_DIR$/images/icons/components/scroll-to-top.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\search-box.png" afterPath="$PROJECT_DIR$/images/icons/components/search-box.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\search-results.png" afterPath="$PROJECT_DIR$/images/icons/components/search-results.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\secondary-navigation-advanced.png" afterPath="$PROJECT_DIR$/images/icons/components/secondary-navigation-advanced.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\secondary-navigation.png" afterPath="$PROJECT_DIR$/images/icons/components/secondary-navigation.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\simple-content.png" afterPath="$PROJECT_DIR$/images/icons/components/simple-content.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\social-connect.png" afterPath="$PROJECT_DIR$/images/icons/components/social-connect.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\social-share.png" afterPath="$PROJECT_DIR$/images/icons/components/social-share.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\tab-set.png" afterPath="$PROJECT_DIR$/images/icons/components/tab-set.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\table.png" afterPath="$PROJECT_DIR$/images/icons/components/table.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\thumbnail.png" afterPath="$PROJECT_DIR$/images/icons/components/thumbnail.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\title.png" afterPath="$PROJECT_DIR$/images/icons/components/title.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\utility-navigation.png" afterPath="$PROJECT_DIR$/images/icons/components/utility-navigation.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\video-embed.png" afterPath="$PROJECT_DIR$/images/icons/components/video-embed.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\ComponentIcons\video-player.png" afterPath="$PROJECT_DIR$/images/icons/components/video-player.png" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\icon-delete.jpg" afterPath="$PROJECT_DIR$/images/icons/icon-delete.jpg" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\icon-edit.jpg" afterPath="$PROJECT_DIR$/images/icons/icon-edit.jpg" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\icon-insert-new.jpg" afterPath="$PROJECT_DIR$/images/icons/icon-insert-new.jpg" />
-      <change type="MOVED" beforePath="C:\sitebuilder\images\icon-reorder.jpg" afterPath="$PROJECT_DIR$/images/icons/icon-reorder.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/modal/example-modal-sb.jpg" afterPath="$PROJECT_DIR$/images/modal/example-modal-sb.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/accordion.html" afterPath="$PROJECT_DIR$/partials/components/accordion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/accordionContent.html" afterPath="$PROJECT_DIR$/partials/components/accordionContent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/alert.html" afterPath="$PROJECT_DIR$/partials/components/alert.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/backgroundSection.html" afterPath="$PROJECT_DIR$/partials/components/backgroundSection.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/brand.css" afterPath="$PROJECT_DIR$/css/brand.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/codeInjectionListView.html" afterPath="$PROJECT_DIR$/partials/codeInjectionListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/componentListView.html" afterPath="$PROJECT_DIR$/partials/componentListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/container.html" afterPath="$PROJECT_DIR$/partials/components/container.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/contentListView.html" afterPath="$PROJECT_DIR$/partials/contentListView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/functionalListView.html" afterPath="$PROJECT_DIR$/partials/functionalListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/modal.html" afterPath="$PROJECT_DIR$/partials/components/modal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/modalWindow.html" afterPath="$PROJECT_DIR$/partials/components/modalWindow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/navigationListView.html" afterPath="$PROJECT_DIR$/partials/navigationListView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/row.html" afterPath="$PROJECT_DIR$/partials/components/row.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/components/rowAdvanced.html" afterPath="$PROJECT_DIR$/partials/components/rowAdvanced.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/structuralListView.html" afterPath="$PROJECT_DIR$/partials/structuralListView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/controls/sideNav.html" afterPath="$PROJECT_DIR$/partials/controls/sideNav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/simple-sidebar.css" afterPath="$PROJECT_DIR$/css/simple-sidebar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sitebuilder.iws" />
@@ -104,21 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="brand.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/brand.css">
+      <file leaf-file-name="accordion.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/components/accordion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="container.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/components/container.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="21" selection-start-line="45" selection-start-column="12" selection-end-line="47" selection-end-column="21" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="17" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -126,13 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accordion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/components/accordion.html">
+      <file leaf-file-name="alert.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/partials/components/alert.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20499109">
+              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,10 +68,10 @@
       <file leaf-file-name="accordionContent.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/components/accordionContent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,10 +80,20 @@
       <file leaf-file-name="backgroundSection.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/components/backgroundSection.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="container.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/components/container.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,10 +102,10 @@
       <file leaf-file-name="modal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/components/modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,22 +114,20 @@
       <file leaf-file-name="modalWindow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/components/modalWindow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="row.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/components/row.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6267857">
-              <caret line="167" column="17" selection-start-line="160" selection-start-column="7" selection-end-line="167" selection-end-column="17" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,10 +136,10 @@
       <file leaf-file-name="rowAdvanced.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/components/rowAdvanced.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -227,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/partials/components/navbarJump.html" />
-        <option value="$PROJECT_DIR$/partials/components/paginationPager.html" />
         <option value="$PROJECT_DIR$/partials/components/panel.html" />
         <option value="$PROJECT_DIR$/partials/components/richText.html" />
         <option value="$PROJECT_DIR$/partials/components/scriptLink.html" />
@@ -261,23 +194,25 @@
         <option value="$PROJECT_DIR$/partials/components/navbarLogoWithText.html" />
         <option value="$PROJECT_DIR$/js/services/componentService.js" />
         <option value="$PROJECT_DIR$/js/routing.js" />
-        <option value="$PROJECT_DIR$/partials/controls/sideNav.html" />
-        <option value="$PROJECT_DIR$/partials/componentListView.html" />
         <option value="$PROJECT_DIR$/partials/codeInjectionListView.html" />
         <option value="$PROJECT_DIR$/partials/contentListView.html" />
         <option value="$PROJECT_DIR$/partials/functionalListView.html" />
         <option value="$PROJECT_DIR$/partials/navigationListView.html" />
         <option value="$PROJECT_DIR$/partials/structuralListView.html" />
+        <option value="$PROJECT_DIR$/partials/componentListView.html" />
+        <option value="$PROJECT_DIR$/partials/controls/sideNav.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/partials/components/modalWindow.html" />
-        <option value="$PROJECT_DIR$/partials/components/modal.html" />
-        <option value="$PROJECT_DIR$/partials/components/backgroundSection.html" />
-        <option value="$PROJECT_DIR$/partials/components/accordionContent.html" />
-        <option value="$PROJECT_DIR$/partials/components/accordion.html" />
-        <option value="$PROJECT_DIR$/partials/components/container.html" />
-        <option value="$PROJECT_DIR$/partials/components/rowAdvanced.html" />
+        <option value="$PROJECT_DIR$/css/simple-sidebar.css" />
         <option value="$PROJECT_DIR$/css/brand.css" />
+        <option value="$PROJECT_DIR$/partials/components/modal.html" />
+        <option value="$PROJECT_DIR$/partials/components/accordion.html" />
+        <option value="$PROJECT_DIR$/partials/components/accordionContent.html" />
+        <option value="$PROJECT_DIR$/partials/components/backgroundSection.html" />
+        <option value="$PROJECT_DIR$/partials/components/container.html" />
+        <option value="$PROJECT_DIR$/partials/components/modalWindow.html" />
         <option value="$PROJECT_DIR$/partials/components/row.html" />
+        <option value="$PROJECT_DIR$/partials/components/rowAdvanced.html" />
+        <option value="$PROJECT_DIR$/partials/components/alert.html" />
       </list>
     </option>
   </component>
@@ -318,7 +253,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,7 +300,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,13 +378,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backgroundSection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sitebuilder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,6 +416,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/sitebuilder/partials/components/modalWindow.html" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -546,13 +532,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24868283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24815595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3362162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33513513" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -610,13 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/partials/components/tabSet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -722,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/simple-sidebar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6891892">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/siteBuilderCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3158784">
@@ -806,20 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/controls/sideNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/icons/components/background-section.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -854,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/componentListView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/contentListView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -889,57 +840,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/partials/componentListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39464286">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/simple-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5945485">
+          <caret line="216" column="22" selection-start-line="216" selection-start-column="22" selection-end-line="216" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/brand.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.8654175">
+          <caret line="168" column="20" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6363636">
+          <caret line="21" column="85" selection-start-line="21" selection-start-column="85" selection-end-line="21" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/modal.html">
+    <entry file="file://$PROJECT_DIR$/partials/controls/sideNav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/accordion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.15151516">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/accordionContent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/backgroundSection.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/container.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="21" selection-start-line="45" selection-start-column="12" selection-end-line="47" selection-end-column="21" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/components/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
@@ -948,38 +926,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/modalWindow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/components/rowAdvanced.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/brand.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/components/row.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6267857">
-          <caret line="167" column="17" selection-start-line="160" selection-start-column="7" selection-end-line="167" selection-end-column="17" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/components/rowAdvanced.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/components/accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/components/alert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20499109">
+          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
