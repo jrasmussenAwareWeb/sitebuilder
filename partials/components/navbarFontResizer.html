@@ -1,15 +1,14 @@
-<h3>Copyright</h3>
+<h3>Navbar Font Resizer</h3>
 
 <div class="row">
     <div class="col-xs-5 text-left">
-        <img class="img-responsive" src="images/icons/components/copyright.png" />
+        <img class="img-responsive" src="images/icons/components/font-resizer.png" />
     </div>
     <div class="col-xs-7 text-left">
         <h4>Allowed In</h4>
         <ul class="allowed">
-            <li><span class="badge text-info">Footer</span></li>
-            <li><a href="Row"><span class="badge">Row</span></a></li>
-            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
+            <li><a href="Navbar"><span class="badge">Navbar</span></a></li>
+            <li><a href="Navbar_Jump"><span class="badge">Navbar Jump Menu</span></a></li>
         </ul>
     </div>
 </div>
@@ -20,7 +19,7 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Usage</h4>
-        <p>Include organization copyright details typically in the website footer. The current year is included by default.</p>
+        <p>Provide the ability for the user to increase or decrease the font size of the page or site. Increments or decrements font size by 1px per click.</p>
     </div>
 </div>
 
@@ -30,10 +29,10 @@
     <div class="col-xs-12">
         <h4>Examples</h4>
         <h5>Site Builder</h5>
-        <img class="img-responsive" src="images/copyright/example-copyright-sb.jpg" />
+        <img class="img-responsive" src="images/navbarFontResizer/example-navbar-font-resizer-sb.jpg" />
         <br />
         <h5>Web</h5>
-        <img class="img-responsive" src="images/copyright/example-copyright-web.jpg" />
+        <img class="img-responsive" src="images/navbarFontResizer/example-navbar-font-resizer-web.jpg" />
     </div>
 </div>
 
@@ -42,7 +41,7 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Content Group Options</h4>
-        <img class="img-responsive" src="images/copyright/options-copyright.jpg" />
+        <img class="img-responsive" src="images/navbarFontResizer/options-navbar-font-resizer.jpg" />
         <br />
         <p>To edit content group options, click the Edit Content Group icon <img src="images/icons/icon-edit.jpg" />. </p>
 
@@ -54,19 +53,12 @@
                 <th>Function</th>
             </tr>
             <tr>
-                <td>Copyright Navigation Text</td>
-                <td>RTE</td>
-                <td>
-                </td>
-            </tr>
-            <tr>
-                <td>Text Alignment</td>
+                <td>Alignment</td>
                 <td>Selection</td>
-                <td>Select image contextual style using bootstrap default class options<br />
+                <td>Select navbar alignment using default class options<br />
                     <ul>
-                        <li>Text Center &mdash; <code>.text-center</code></li>
-                        <li>Text Left &mdash; <code>.text-left</code></li>
-                        <li>Text Right &mdash; <code>.text-right</code></li>
+                        <li>Left &mdash; <code>.navbar-left</code></li>
+                        <li>Right &mdash; <code>.navbar-right</code></li>
                     </ul>
                 </td>
             </tr>
@@ -89,8 +81,42 @@
 <hr />
 <div class="row">
     <div class="col-xs-12">
-        <h4>Bootstrap Classes</h4>
-        None
+        <h4>Site Builder Classes</h4>
+        <code>
+<pre>
+.navbar-left {
+    float: left !important;
+}
+.navbar-right {
+    float: right !important;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.navbar-utility {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+.navbar-nav > li {
+    float: left;
+}
+.nav > li {
+    display: block;
+    position: relative;
+}
+ul.resizer li {
+    cursor: pointer;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-utility.resizer li > a {
+    padding: 4px 6px;
+}
+</pre>
+        </code>
     </div>
 </div>
 
@@ -108,8 +134,7 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Tips &amp; Troubleshooting</h4>
-        <p>If placing the copyright in the footer and the footer will have additional links on the same row as the copyright, include the links in the
-            Copyright Text Navigation Rich Text (RTE) rather than using a separate <a href="Footer_Navigation">Footer Navigation</a> component.</p>
+        <p></p>
     </div>
 </div>
 
