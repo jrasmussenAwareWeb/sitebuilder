@@ -1,1 +1,219 @@
 <h3>Table</h3>
+
+<div class="row">
+    <div class="col-xs-5 text-left">
+        <img class="img-responsive" src="images/icons/components/table.png" />
+    </div>
+    <div class="col-xs-7 text-left">
+        <h4>Allowed In</h4>
+        None
+    </div>
+</div>
+
+<div style="clear:both"></div>
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Usage</h4>
+        <p>Tables should be built using a Rich Text Editor and basic bootstrap styles rather than the Table component.</p>
+
+        <br />
+
+        <p class="small"><strong>More information at getboostrap.com</strong><br />
+            <i class="fa fa-external-link-square"></i> <a target="_blank" href="http://getbootstrap.com/css/#tables">http://getbootstrap.com/css/#tables</a>
+        </p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Example</h4>
+        <table class="table table-responsive table-striped table-bordered">
+            <tbody>
+            <tr>
+                <th>Performance Requirement</th>
+                <th>Market Expectation</th>
+                <th>A Performance</th>
+                <th>B Performance</th>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr>
+                <td>Temperature in printing</td>
+                <td>Lower is better for safety and control</td>
+                <td>190-230&deg;C possible, sharp melting behavior</td>
+                <td>230-250&deg;C</td>
+            </tr>
+            <tr>
+                <td>Vapor or odor in printing, EH&amp;S</td>
+                <td>Low or no emissions, smell small particulate</td>
+                <td>Very low emissions &amp; studies show lower particulate count</td>
+                <td>Strong negative odor and higher particulate count</td>
+            </tr>
+            <tr>
+                <td>Heated build chamber</td>
+                <td>Ideally not required &amp; IP limits implementation for some users</td>
+                <td>Does not require heated build chamber, but opportunity to leverage</td>
+                <td>Required to avoid warping while mfg. larger parts</td>
+            </tr>
+            <tr>
+                <td>Fusing performance</td>
+                <td>Fuses easily, sticks to self and build chamber</td>
+                <td>Good fusing and build platform adhesion</td>
+                <td>Difficult to stick to certain build platforms</td>
+            </tr>
+            <tr>
+                <td>Thermal shrinkage</td>
+                <td>Low shrinkage</td>
+                <td>Excellent, low shrink</td>
+                <td>Warps on larger builds</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Content Group Options</h4>
+        None
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Allowed Components</h4>
+        None
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Code Sample</h4>
+        <code>
+<pre>
+&lt;table class="table table-responsive table-striped table-bordered"&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Performance Requirement&lt;/th&gt;
+        &lt;th&gt;Market Expectation&lt;/th&gt;
+        &lt;th&gt;A Performance&lt;/th&gt;
+        &lt;th&gt;B Performance&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Temperature in printing&lt;/td&gt;
+        &lt;td&gt;Lower is better for safety and control&lt;/td&gt;
+        &lt;td&gt;190-230&deg;C possible, sharp melting behavior&lt;/td&gt;
+        &lt;td&gt;230-250&deg;C&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Vapor or odor in printing, EH&amp;S&lt;/td&gt;
+        &lt;td&gt;Low or no emissions, smell small particulate&lt;/td&gt;
+        &lt;td&gt;Very low emissions &amp; studies show lower particulate count&lt;/td&gt;
+        &lt;td&gt;Strong negative odor and higher particulate count&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Heated build chamber&lt;/td&gt;
+        &lt;td&gt;Ideally not required &amp; IP limits implementation for some users&lt;/td&gt;
+        &lt;td&gt;Does not require heated build chamber, but opportunity to leverage&lt;/td&gt;
+        &lt;td&gt;Required to avoid warping while mfg. larger parts&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Fusing performance&lt;/td&gt;
+        &lt;td&gt;Fuses easily, sticks to self and build chamber&lt;/td&gt;
+        &lt;td&gt;Good fusing and build platform adhesion&lt;/td&gt;
+        &lt;td&gt;Difficult to stick to certain build platforms&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Thermal shrinkage&lt;/td&gt;
+        &lt;td&gt;Low shrinkage&lt;/td&gt;
+        &lt;td&gt;Excellent, low shrink&lt;/td&gt;
+        &lt;td&gt;Warps on larger builds&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Bootstrap Classes</h4>
+        <code>
+<pre>
+.table {
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-responsive {
+    min-height: 0.01%;
+    overflow-x: auto;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table-bordered > tbody > tr > td,
+    .table-bordered > tbody > tr > th,
+    .table-bordered > tfoot > tr > td,
+    .table-bordered > tfoot > tr > th,
+    .table-bordered > thead > tr > td,
+    .table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+}
+.table > tbody > tr > td,
+    .table > tbody > tr > th,
+    .table > tfoot > tr > td,
+    .table > tfoot > tr > th,
+    .table > thead > tr > td,
+    .table > thead > tr > th {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Tips &amp; Troubleshooting</h4>
+        <p></p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Restrictions &amp; Dependencies</h4>
+        <p></p>
+    </div>
+</div>
