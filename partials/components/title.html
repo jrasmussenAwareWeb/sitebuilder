@@ -1,1 +1,311 @@
 <h3>Title</h3>
+
+<div class="row">
+    <div class="col-xs-5 text-left">
+        <img class="img-responsive" src="images/icons/components/title.png" />
+    </div>
+    <div class="col-xs-7 text-left">
+        <h4>Allowed In</h4>
+        <ul class="allowed">
+            <li><a href="Accordion"><span class="badge">Accordion</span></a></li>
+            <li><a href="Billboard_Slide"><span class="badge text-danger">Billboard Slide (Caption)</span></a></li>
+            <li><a href="Carousel_Slide"><span class="badge">Carousel Slide</span></a></li>
+            <li><a href="Container"><span class="badge">Container</span></a></li>
+            <li><a href="Panel"><span class="badge">Panel</span></a></li>
+            <li><a href="Row"><span class="badge">Row</span></a></li>
+            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
+            <li><a href="Tabset"><span class="badge">Tabset</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="clear:both"></div>
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Usage</h4>
+        <p></p>
+
+        <br />
+
+        <p class="small"><strong>More information at getboostrap.com</strong><br />
+            <i class="fa fa-external-link-square"></i> <a target="_blank" href="http://getbootstrap.com/css/#type">http://getbootstrap.com/css/#type</a>
+        </p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Examples</h4>
+        <h5>Site Builder</h5>
+        <img class="img-responsive" src="images/title/example-title-sb.jpg" />
+        <br />
+        <h5>Web</h5>
+        <img class="img-responsive" src="images/title/example-title-web.jpg" />
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Content Group Options</h4>
+        <img class="img-responsive" src="images/title/options-title.jpg" />
+        <br />
+        <p>To edit content group options, click the Edit Content Group icon <img src="images/icons/icon-edit.jpg" />. </p>
+
+        <table class="table table-striped table-responsive">
+            <tbody>
+            <tr>
+                <th>Option</th>
+                <th>Data Type</th>
+                <th>Function</th>
+            </tr>
+            <tr>
+                <td>Title <em>Text</em></td>
+                <td>Input</td>
+                <td>Enter the panel title
+                </td>
+            </tr>
+            <tr>
+                <td>Title Link</td>
+                <td>Content Selector</td>
+                <td>Select a link for the title &mdash; leave blank for no linking
+                </td>
+            </tr>
+            <tr>
+                <td>Header Tag</td>
+                <td>Selection</td>
+                <td>Select header style using bootstrap default class options<br />
+                    <ul>
+                        <li>h1</li>
+                        <li>h2</li>
+                        <li>h3</li>
+                        <li>h4</li>
+                        <li>h5</li>
+                        <li>h6</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Use Page Title</td>
+                <td>Checkbox</td>
+                <td>Select to render the page name
+                </td>
+            </tr>
+            <tr>
+                <td>Use Page Header Styling</td>
+                <td>Checkbox</td>
+                <td>Select to add <code>.page-header</code> class
+                </td>
+            </tr>
+           <tr>
+                <td>CSS Class</td>
+                <td>Input</td>
+                <td>Add CSS class</td>
+            </tr>
+            <tr>
+                <td>Style</td>
+                <td>Input</td>
+                <td>Add CSS styles (inline)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Allowed Components</h4>
+        <ul class="allowed">
+            <li>None</li>
+        </ul>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Code Sample</h4>
+        <code>
+<pre>
+&lt;h1&gt;Title - h1&lt;/h1&gt;
+&lt;h2&gt;Title - h2&lt;/h2&gt;
+&lt;h3&gt;Title - h3&lt;/h3&gt;
+&lt;h4&gt;Title - h4&lt;/h4&gt;
+&lt;h5&gt;Title - h5&lt;/h5&gt;
+&lt;h6&gt;Title - h6&lt;/h6&gt;
+&lt;h1&gt;Title&lt;/h1&gt;
+&lt;h1 class="page-header"&gt;Title - Add Page Header Styling&lt;/h1&gt;
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Bootstrap Classes</h4>
+        <code>
+<pre>
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: inherit;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+h1, .h1 {
+    font-size: 36px;
+}
+h2, .h2 {
+    font-size: 30px;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+h5, .h5 {
+    font-size: 14px;
+}
+h6, .h6 {
+    font-size: 12px;
+}
+.page-header {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 30px 0 20px;
+    padding-bottom: 9px;
+}
+</pre>
+        </code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <p class="col-xs-12">
+        <h4>Global Stylesheet</h4>
+        <p>Options for each heading <code>h1</code>-<code>h6</code> can be updated from the defaults in the Global Stylesheet Heading Tag Styles.<br />
+        <img class="img-responsive" src="images/title/options-title-global-stylesheet.jpg" />
+        <small><em>(<code>h1</code>example)</em></small></p>
+        <br /><br />
+        <table class="table table-striped table-responsive">
+            <tbody>
+            <tr>
+                <th>Option</th>
+                <th>Data Type</th>
+                <th>Function</th>
+            </tr>
+            <tr>
+                <td>External Web Font Family</td>
+                <td>Input</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>Font Family</td>
+                <td>Selection</td>
+                <td><br />
+                    <ul>
+                        <li>Arial</li>
+                        <li>Arial Black</li>
+                        <li>Arial Narrow</li>
+                        <li>Arial Rounded MT Bold</li>
+                        <li>Baskerville</li>
+                        <li>Book Antiqua</li>
+                        <li>Bush Script MT</li>
+                        <li>Calibri</li>
+                        <li>Cambria</li>
+                        <li>Candara</li>
+                        <li>Century Gothic</li>
+                        <li>Comic Sans MT</li>
+                        <li>Copperplate Gothic</li>
+                        <li>Courier News</li>
+                        <li>Garamond</li>
+                        <li>Georgia</li>
+                        <li>Helvetica</li>
+                        <li>Impact</li>
+                        <li>Lucida Bright</li>
+                        <li>Lucida Console</li>
+                        <li>Lucida Sans</li>
+                        <li>Palatino</li>
+                        <li>Papyrus</li>
+                        <li>Tahoma</li>
+                        <li>Times New Roman</li>
+                        <li>Trebuchet MS</li>
+                        <li>Verdana</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Font Size</td>
+                <td>Selection</td>
+                <td><br />
+                    <ul>
+                        <li>1px - 48px</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Font Color</td>
+                <td>Input</td>
+                <td>Set font color &mdash; click the Set Color link for a color selector
+                </td>
+            </tr>
+            <tr>
+                <td>Font Weight</td>
+                <td>Selection</td>
+                <td>Select font weight from default options<br />
+                    <ul>
+                        <li>100</li>
+                        <li>200</li>
+                        <li>300</li>
+                        <li>400</li>
+                        <li>500</li>
+                        <li>600</li>
+                        <li>700</li>
+                        <li>800</li>
+                        <li>900</li>
+                        <li>bold</li>
+                        <li>bolder</li>
+                        <li>inherit</li>
+                        <li>initial</li>
+                        <li>lighter</li>
+                        <li>normal</li>
+                        <li>unset</li>
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Tips &amp; Troubleshooting</h4>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Restrictions &amp; Dependencies</h4>
+    </div>
+</div>

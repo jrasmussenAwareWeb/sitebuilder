@@ -6,12 +6,15 @@
     </div>
     <div class="col-xs-7 text-left">
         <h4>Allowed In</h4>
-        <!--<ul class="allowed">
-            <li><a href="Background_Section"><span class="badge">Background Section</span></a></li>
-            <li><span class="badge text-info">Header</span></li>
-            <li><span class="badge text-info">Body</span></li>
-            <li><span class="badge text-info">Footer</span></li>
-        </ul>-->
+        <ul class="allowed">
+            <li><a href="Accordion"><span class="badge">Accordion</span></a></li>
+            <li><a href="Billboard_Slide"><span class="badge text-danger">Billboard Slide (Caption)</span></a></li>
+            <li><a href="Container"><span class="badge">Container</span></a></li>
+            <li><a href="Modal_Window"><span class="badge">Modal Window</span></a></li>
+            <li><a href="Row"><span class="badge">Row</span></a></li>
+            <li><a href="Row_(Advanced)"><span class="badge">Row Advanced</span></a></li>
+            <li><a href="Tabset"><span class="badge">Tabset</span></a></li>
+        </ul>
     </div>
 </div>
 
@@ -21,15 +24,31 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Usage</h4>
-        <<!--p>Bootstrap requires a containing element to wrap site contents and house the grid system.
-            Note that containers are not nestable.<br />
-            Use <code>.container</code> for a responsive fixed width container. Use <code>.container-fluid</code> for a full width container.</p>
+        <p>Use Panel for a bordered box section with padded body content and an optional panel title and footer. Additional Allowed Components can be
+        added to the panel body.</p>
 
         <br />
 
         <p class="small"><strong>More information at getboostrap.com</strong><br />
-            <i class="fa fa-external-link-square"></i> <a target="_blank" href="http://getbootstrap.com/css/#overview-container">http://getbootstrap.com/css/#overview-container</a>
-        </p>-->
+            <i class="fa fa-external-link-square"></i> <a target="_blank" href="http://getbootstrap.com/components/#panels">http://getbootstrap.com/components/#panels</a>
+        </p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Example</h4>
+
+        <div class="col-xs-12 col-md-6">
+            <h5>Site Builder</h5>
+            <img class="img-responsive" src="images/panel/example-panel-sb.jpg" />
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <h5>Web</h5>
+            <img class="img-responsive" src="images/panel/example-panel-web.jpg" />
+        </div>
     </div>
 </div>
 
@@ -50,15 +69,36 @@
                 <th>Function</th>
             </tr>
             <tr>
-                <td>Fluid</td>
-                <td>Checkbox</td>
-                <td>Sets a full width container using bootstrap default class <code>.container-fluid</code>
+                <td>Title</td>
+                <td>Input</td>
+                <td>Enter the panel title &mdash; for no title, leave blank
                 </td>
             </tr>
             <tr>
-                <td>CSS ID</td>
-                <td>Input</td>
-                <td>Add ID</td>
+                <td>Title Link</td>
+                <td>Content Selector</td>
+                <td>Select a link for the title &mdash; leave blank for no linking
+                </td>
+            </tr>
+            <tr>
+                <td>Footer</td>
+                <td>Rich Text (RTE)</td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>Contextual CSS Class</td>
+                <td>Selection</td>
+                <td>Select panel styles using bootstrap default class options<br />
+                    <ul>
+                        <li>(Blank) &mdash; <code>.panel-default</code></li>
+                        <li>Danger &mdash; <code>.panel-danger</code></li>
+                        <li>Info &mdash; <code>.panel-info</code></li>
+                        <li>Primary &mdash; <code>.panel-primary</code></li>
+                        <li>Success &mdash; <code>.panel-success</code></li>
+                        <li>Warning &mdash; <code>.panel-warning</code></li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>CSS Class</td>
@@ -72,9 +112,69 @@
             </tr>
             </tbody>
         </table>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Examples - Contextual Classes</h4>
+
+        <div class="col-xs-12 col-md-4">
+            <img class="img-responsive" src="images/panel/example-panel-default.jpg" />
+            <code>.panel-default</code>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <img class="img-responsive" src="images/panel/example-panel-danger.jpg" />
+            <code>.panel-danger</code>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <img class="img-responsive" src="images/panel/example-panel-info.jpg" />
+            <code>.panel-info</code>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="col-xs-12">
+        <div class="col-xs-12 col-md-4">
+            <img class="img-responsive" src="images/panel/example-panel-primary.jpg" />
+            <code>.panel-primary</code>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <img class="img-responsive" src="images/panel/example-panel-success.jpg" />
+            <code>.panel-success</code>
+        </div>
+        <div class="col-xs-12 col-md-4">
+            <img class="img-responsive" src="images/panel/example-panel-warning.jpg" />
+            <code>.panel-warning</code>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Panel Items</h4>
+        <p>The Panel component is comprised of a panel title, panel body, and panel footer.</p>
+        <h5>Panel Title</h5>
+        <p>Enter the panel title as text &mdash; entry here is rendered <code>h3</code> in the <code>panel-title</code> section.</p>
         <img class="img-responsive" src="images/panel/options-panel-title.jpg" />
+        <br />
+        <h5>Panel Body Text</h5>
+        <p>Enter panel body text &mdash; entry here is rendered in the <code>panel-body</code> section.<br />
+        Note that this item uses the <a href="Rich_Text_(RTE)">Rich Text (RTE)</a> editor so additional HTML can be entered.</p>
         <img class="img-responsive" src="images/panel/options-panel-body-text.jpg" />
+        <br />
+        <h5>Panel Body Placeholder</h5>
+        <p>Add additional Allowed Components &mdash; classes here will be relevant to the placed components.</p>
+        <img class="img-responsive" src="images/panel/options-panel-add-component.jpg" />
+        <br />
+        <h5>Panel Footer</h5>
+        <p>Enter panel footer text &mdash; entry here is rendered in the <code>panel-footer</code> section.<br />
+        Note that this item uses the <a href="Rich_Text_(RTE)">Rich Text (RTE)</a> editor so additional HTML can be entered.</p>
         <img class="img-responsive" src="images/panel/options-panel-footer.jpg" />
+
     </div>
 </div>
 
@@ -83,59 +183,21 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Allowed Components</h4>
-        <p>Layout - Placeholder Settings - Accelcor - SiteBuilder</p>
         <ul class="allowed">
-            <li><a href="Accordion"><span class="badge">Accordion</span></a></li>
             <li><a href="Alert"><span class="badge">Alert</span></a></li>
-            <li><a href="Billboard"><span class="badge">Billboard</span></a></li>
-            <li><a href="Billboard_(Advanced)"><span class="badge">Billboard Advanced</span></a></li>
-            <!--<li><a href="Billboard_Layer_Slider"><span class="badge">Billboard Layer Slider ( Billboard MVC Rendering )</span></a></li>-->
-            <li><a href="Blockquote"><span class="badge">Blockquote</span></a></li>
-            <li><a href="Breadcrumb"><span class="badge">Breadcrumb</span></a></li>
             <li><a href="Button"><span class="badge">Button</span></a></li>
-            <li><a href="Carousel"><span class="badge">Carousel</span></a></li>
-            <!--<li><a href=""><span class="badge">Copyright</span></a></li>
-            <li><a href=""><span class="badge">Floating Submenu</span></a></li>
-            <li><a href=""><span class="badge">Footer Navigation</span></a></li>-->
-            <li><a href="Google_Search_Results"><span class="badge">Google Search Results</span></a></li>
             <li><a href="HTML"><span class="badge">HTML</span></a></li>
             <li><a href="iFrame"><span class="badge">iFrame</span></a></li>
             <li><a href="Image"><span class="badge">Image</span></a></li>
-            <li><a href="Image_Grid"><span class="badge">Image Grid</span></a></li>
-            <li><a href="Jumbotron"><span class="badge">Jumbotron</span></a></li>
             <li><a href="Listing"><span class="badge">Listing</span></a></li>
-            <li><a href="Media_List"><span class="badge">Media List</span></a></li>
-            <li><a href="Media_List_with_Search"><span class="badge">Media List with Search</span></a></li>
             <li><a href="Media_Object"><span class="badge">Media Object</span></a></li>
-            <!--<li><a href=""><span class="badge">Modal Window</span></a></li>-->
-            <li><a href="Navbar"><span class="badge">Navbar</span></a></li>
-            <li><a href="Navbar_Alternate"><span class="badge">Navbar Alternate</span></a></li>
-            <li><a href="Navbar_Jump_Menu"><span class="badge">Navbar Jump Menu</span></a></li>
-            <li><a href="Navbar_Utility_Nav"><span class="badge">Navbar Utility Nav</span></a></li>
-            <li><a href="Pagination_-_Pager"><span class="badge">Pagination - Pager</span></a></li>
-            <li><a href="Panel"><span class="badge">Panel</span></a></li>
             <li><a href="Rich_Text_(RTE)"><span class="badge">Rich Text</span></a></li>
-            <li><a href="Row"><span class="badge">Row</span></a></li>
-            <li><a href="Row_(Advanced)"><span class="badge">Row Advanced</span></a></li>
-            <li><a href="Scroll_to_Top"><span class="badge">Scroll to Top</span></a></li>
-            <!--<li><a href=""><span class="badge">Search Box</span></a></li>-->
-            <li><a href="Search_Results"><span class="badge">Search Results</span></a></li>
-            <!--<li><a href=""><span class="badge">Secondary Navigation</span></a></li>
-            <li><a href=""><span class="badge">Secondary Navigation Advanced</span></a></li>-->
             <li><a href="Simple_Content"><span class="badge">Simple Content</span></a></li>
-            <li><a href="Social_Connect"><span class="badge">Social Connect</span></a></li>
-            <li><a href="Social_Share"><span class="badge">Social Share</span></a></li>
-            <li><a href="Tabset"><span class="badge">Tabset</span></a></li>
             <li><a href="Table"><span class="badge">Table</span></a></li>
             <li><a href="Thumbnail"><span class="badge">Thumbnail</span></a></li>
             <li><a href="Title"><span class="badge">Title</span></a></li>
-            <li><a href="Utility_Navigation"><span class="badge">Utility Navigation</span></a></li>
             <li><a href="Video_Embed"><span class="badge">Video Embed</span></a></li>
             <li><a href="Video_Player"><span class="badge">Video Player</span></a></li>
-            <li><a href=""><span class="badge text-danger">BillboardMVCRendering</span></a></li>
-            <li><a href="Form"><span class="badge text-danger">Form</span></a></li>
-            <li><a href="Mvc_Form"><span class="badge text-danger">Mvc Form</span></a></li>
-            <li><a href="MVC_Subscription_Form"><span class="badge text-danger">MVC Subscription Form</span></a></li>
         </ul>
     </div>
 </div>
@@ -147,21 +209,22 @@
         <h4>Code Samples</h4>
         <code>
 <pre>
+&lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-heading"&gt;
+        &lt;h3 class="panel-title"&gt;Title&lt;/h3&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-body"&gt;
+        &lt;p&gt;Panel Body Text&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="panel-footer"&gt;
+        &lt;p&gt;Footer&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 </pre>
         </code>
     </div>
 </div>
 
-<hr />
-<div class="row">
-    <div class="col-xs-12">
-        <h4>Site Builder Classes</h4>
-        <code>
-<pre>
-</pre>
-        </code>
-    </div>
-</div>
 
 <hr />
 <div class="row">
@@ -169,7 +232,61 @@
         <h4>Bootstrap Classes</h4>
         <code>
 <pre>
-
+.panel {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+.panel-default{}
+.panel-danger {
+    border-color: #d9534f;
+}
+.panel-danger > .panel-heading {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+}
+.panel-info {
+    border-color: #2aabb9;
+}
+.panel-info > .panel-heading {
+    background-color: #2aabb9;
+    border-color: #2aabb9;
+    color: #fff;
+}
+.panel-primary {
+    border-color: #0785a4;
+}
+.panel-primary > .panel-heading {
+    background-color: #0785a4;
+    border-color: #0785a4;
+    color: #fff;
+}
+.panel-success {
+    border-color: #809f3d;
+}
+.panel-success > .panel-heading {
+    background-color: #809f3d;
+    border-color: #809f3d;
+    color: #fff;
+}
+.panel-warning {
+    border-color: #e36526;
+}
+.panel-warning > .panel-heading {
+    background-color: #e36526;
+    border-color: #e36526;
+    color: #fff;
+}
+.panel-footer {
+    background-color: #f5f5f5;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 1px solid #ddd;
+    padding: 10px 15px;
+}
 </pre>
         </code>
     </div>

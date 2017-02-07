@@ -1,1 +1,136 @@
 <h3>Scroll to Top</h3>
+
+<div class="row">
+    <div class="col-xs-5 text-left">
+        <img class="img-responsive" src="images/icons/components/scroll-to-top.png" />
+    </div>
+    <div class="col-xs-7 text-left">
+        <h4>Allowed In</h4>
+        <ul class="allowed">
+            <li><a href="Container"><span class="badge">Container</span></a></li>
+            <li><a href="Row"><span class="badge">Row</span></a></li>
+            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<div style="clear:both"></div>
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Usage</h4>
+        <p>Use to provide a floating navigation arrow for users to return to the top on longer pages.</p>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Examples</h4>
+        <h5>Site Builder</h5>
+        <img class="img-responsive" src="images/scrollToTop/example-scroll-to-top-sb.jpg" />
+        <br />
+        <h5>Web</h5>
+        <img class="img-responsive" src="images/scrollToTop/example-scroll-to-top-web.jpg" />
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Content Group Options</h4>
+        None
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Allowed Components</h4>
+        None
+    </div>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Code Sample</h4>
+<pre>
+<code>
+&lt;a href="#scrollNav" style="float: right;" data-scroll="" data-spy="affix" data-offset-top="100" data-offset-bottom="20" class="btn btn-primary scrolltop affix" title="top"&gt;
+    &lt;i class="fa fa-chevron-up"&gt;&lt;/i&gt;
+&lt;/a&gt;
+</code>
+</pre>
+    </div>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Bootstrap Classes</h4>
+<code>
+<pre>
+.affix {
+    position: fixed;
+}
+a.scrolltop.affix, a.scrolltop.affix-bottom {
+    opacity: 0.6;
+}
+a.scrolltop, a.scrolltop.affix-top {
+    bottom: 10px;
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    min-height: 34px;
+    opacity: 0;
+    right: 10px;
+    transition: opacity 0.2s ease-in-out 0s;
+    z-index: 9999;
+}
+.btn-primary {
+    background-color: #0785a4;
+    border-color: #06718c;
+    color: #fff;
+}
+
+</pre>
+</code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Tips &amp; Troubleshooting</h4>
+        <h5>Placement</h5>
+        <p>Wherever you place the Scroll To Top, it will update to be in the lower right corner.<br />
+        Recommendation is to place it in its own row below any content area in the body section, either in a base layout or on a page.</p>
+        <br />
+        <h5>Overwriting Colors</h5>
+        <p>To overwrite the default colors, you will have to target the <code>btn-primary</code> for the Scroll To Top.<br />
+        Add the following code to the custom stylesheet and update the colors.</p>
+<code>
+<pre>
+a.btn.btn-primary.scrolltop {
+    background-color: #0785a4;
+    border-color: #06718c;
+    color: #fff;
+}
+</pre>
+</code>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Restrictions &amp; Dependencies</h4>
+    </div>
+</div>
