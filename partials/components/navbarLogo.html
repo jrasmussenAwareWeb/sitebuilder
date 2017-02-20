@@ -9,6 +9,8 @@
         <ul class="allowed">
             <li><a href="Navbar"><span class="badge">Navbar</span></a></li>
             <li><a href="Navbar_Alternate"><span class="badge">Navbar Alternate</span></a></li>
+            <li><a href="Navbar_Jump_Menu"><span class="badge">Navbar Jump Menu</span></a></li>
+            <li><span class="badge text-info">Navbar Logo</span></li>
         </ul>
     </div>
 </div>
@@ -27,12 +29,8 @@
 
 <div class="row">
     <div class="col-xs-12">
-        <h4>Examples</h4>
-        <h5>Site Builder</h5>
-        <!--<img class="img-responsive" src="images/image/example-image-sb.jpg" />-->
-        <br />
-        <h5>Web</h5>
-        <!--<img class="img-responsive" src="images/image/example-image-web.jpg" />-->
+        <h4>Example</h4>
+        <img class="img-responsive" src="images/navbarLogo/example-navbar-logo.jpg" />
     </div>
 </div>
 
@@ -79,10 +77,6 @@
             </tr>
             </tbody>
         </table>
-        <!--<p class="alert alert-info">
-            <i class="fa fa-info-circle" style="font-size:1.5em;position:relative;top:3px"></i>
-            <span><strong>Center-block</strong> centers an image within its parent container.</span>
-        </p>-->
     </div>
 </div>
 
@@ -163,7 +157,11 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Allowed Components</h4>
-        None
+        <ul class="allowed">
+            <li><span class="badge text-info">Navbar Logo</span></li>
+            <li><a href="Navbar_Logo_with_Text"><span class="badge">Navbar Logo With Text</span></a></li>
+            <li><a href="Navbar_Logo_Text_Only"><span class="badge">Navbar Logo Text Only</span></a></li>
+        </ul>
     </div>
 </div>
 
@@ -174,6 +172,11 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+&lt;div class="navbar-header"&gt;
+    &lt;a href="/GenericSampleCompany" class="navbar-brand" style="height: 90px; " title="My Pet Veterinary Center"&gt;
+        &lt;img src="/-/media/Images/[image].ashx?h=137&amp;w=440&amp;la=en" alt="Sample Logo"&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
 </pre>
         </code>
     </div>
@@ -186,6 +189,37 @@
         <h4>Classes</h4>
         <code>
 <pre>
+.container > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container-fluid > .navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar-header {
+    float: left;
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+}
+navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 60px;
+    line-height: 40px;
+    max-width: 220px;
+    padding: 10px 15px;
+}
+.navbar-brand > img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
 </pre>
         </code>
     </div>

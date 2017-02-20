@@ -9,8 +9,8 @@
         <ul class="allowed">
             <li><a href="Container"><span class="badge">Container</span></a></li>
             <li><a href="Modal_"><span class="badge">Modal</span></a></li>
-            <li><a href="Row"><span class="badge text-danger">Row</span></a></li>
-            <li><a href="Row_Advanced"><span class="badge text-danger">Row Advanced</span></a></li>
+            <li><a href="Row"><span class="badge">Row</span></a></li>
+            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
             <li><span class="badge text-info">Utility Navigation</span></li>
         </ul>
     </div>
@@ -30,13 +30,8 @@
 
 <div class="row">
     <div class="col-xs-12">
-        <h4>Examples</h4>
-        <h5>Site Builder</h5>
-        <!--<img class="img-responsive" src="images/backgroundSection/example-background-image-fmsc-sb.jpg" />-->
-        <br />
-        <h5>Web</h5>
+        <h4>Example</h4>
         <!--<img class="img-responsive" src="images/backgroundSection/example-background-image-fmsc.jpg" />-->
-        <br />
     </div>
 </div>
 
@@ -70,6 +65,10 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+&lt;ul class="nav navbar-nav sm" style="" data-smartmenus-id=""&gt;
+    &lt;li&gt;&lt;a href="/GenericSampleCompany/About" title="About"&gt;About&lt;/a&gt; &lt;/li&gt;
+    &lt;li&gt;&lt;a href="/GenericSampleCompany/ResourceCenter" title="Resources"&gt;Resources&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
 </pre>
         </code>
     </div>
@@ -82,6 +81,22 @@
         <p></p>
         <code>
 <pre>
+.nav > li {
+    display: block;
+    position: relative;
+}
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+.navbar-nav > li {
+    float: left;
+}
+navbar-nav > li > a {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 20px;
+}
 </pre>
         </code>
     </div>

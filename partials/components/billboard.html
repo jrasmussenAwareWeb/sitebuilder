@@ -24,7 +24,7 @@
 
         <br />
 
-        <p class="small"><strong>More information at getboostrap.com</strong><br />
+        <p class="small"><strong>More information at getbootstrap.com</strong><br />
             <i class="fa fa-external-link-square"></i> <a target="_blank" href="http://getbootstrap.com/javascript/#carousel">http://getbootstrap.com/javascript/#carousel</a><br />
             <i class="fa fa-external-link-square"></i> <a target="_blank" href="https://getbootstrap.com/examples/carousel/">https://getbootstrap.com/examples/carousel/</a>
         </p>
@@ -91,7 +91,6 @@
                 <td>Add CSS styles (inline)</td>
             </tr>
             </tbody>
-            <tfoot></tfoot>
         </table>
     </div>
 </div>
@@ -125,6 +124,47 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+&lt;div data-ride="carousel" class="carousel slide" id="carousel-home" data-interval="5000" data-wrap="True" style="max-height:300px;"&gt;
+    &lt;!-- Indicators --&gt;
+    &lt;ol class="carousel-indicators"&gt;
+        &lt;li class="" data-slide-to="0" data-target="#carousel-home"&gt;&lt;/li&gt;
+        &lt;li data-slide-to="1" data-target="#carousel-home" class=""&gt;&lt;/li&gt;
+        &lt;li data-slide-to="2" data-target="#carousel-home" class="active"&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;div class="carousel-inner" role="listbox"&gt;
+        &lt;div class="item" style="max-height:300px;background-size:cover;" id=""&gt;
+            &lt;img src="/-/media/Images/[image].ashx?h=300&amp;w=1410&amp;la=en" alt=""&gt;
+            &lt;div class="carousel-caption clearfix"&gt;
+            &lt;h2 style="text-align: left; font-size: 62px;"&gt;Billboard Slide 1&lt;/h2&gt;
+            &lt;h4 style="text-align: left; font-size: 34px;"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/h4&gt;
+            &lt;a role="button" class="btn btn-default" style="" href="#" data-target="#"&gt;Link Button &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="item" style="max-height:300px" id=""&gt;
+            &lt;img src="/-/media/Images/[image].ashx?h=920&amp;w=1920&amp;la=en" alt="Tree"&gt;
+            &lt;div class="carousel-caption clearfix"&gt;
+            &lt;h2 style="text-align: center; font-size: 62px;"&gt;Billboard Slide 2&lt;/h2&gt;
+            &lt;h4 style="text-align: center; font-size: 34px;"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="item active" style="max-height:300px;" id=""&gt;
+            &lt;img src="/-/media/Images/[image].ashx?h=1200&amp;w=1920&amp;la=en" alt="Trees 3"&gt;
+            &lt;div class="carousel-caption clearfix"&gt;
+            &lt;h2 style="text-align: right; font-size: 62px;"&gt;Billboard Slide 3&lt;/h2&gt;
+            &lt;h4 style="text-align: right; font-size: 34px;"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. &lt;/h4&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- Controls --&gt;
+    &lt;a data-slide="prev" role="button" href="#carousel-home" class="left carousel-control"&gt;
+        &lt;i aria-hidden="true" class="fa fa-angle-left fa-2x"&gt;&lt;/i&gt;
+        &lt;span class="sr-only"&gt;Previous&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;a data-slide="next" role="button" href="#carousel-home" class="right carousel-control"&gt;
+        &lt;i aria-hidden="true" class="fa fa-angle-right fa-2x"&gt;&lt;/i&gt;
+        &lt;span class="sr-only"&gt;Next&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
 </pre>
         </code>
     </div>
