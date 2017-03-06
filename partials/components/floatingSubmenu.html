@@ -19,8 +19,8 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Usage</h4>
-        <p>Use Floating Submenu for anchor link navigation on a single page &mdash; for example, a really long page with multiple sections.
-            Clicking the nav item will take the user to the corresponding section on the page.</p>
+        <p>Use Floating Submenu for <u>anchor link navigation on a single page</u> &mdash; for example, a really long page with multiple sections.
+            Clicking the navigation item will take the user to the corresponding section on the page.</p>
 
         <br />
         <p class="small"><strong>More information at getbootstrap.com</strong><br />
@@ -39,7 +39,6 @@
         <br />
         <h5>Web</h5>
         <img class="img-responsive" src="images/floatingSubmenu/example-floating-submenu-web.jpg" />
-        <em>Example: Fixed (the navigation stays in view when you scroll the page) &mdash; <code>position: fixed</code></em>
     </div>
 </div>
 
@@ -105,14 +104,14 @@
     <div class="col-xs-12">
         <h4>Add Floating Submenu Top Level Items</h4>
         <p>To insert a Floating Submenu Item at the top (parent) level , you must do so from the Floating Submenu &mdash;</p>
-        <ul>
+        <ol>
             <li>Using the content tree dropdown, navigate from Floating Submenu Item to Floating Submenu<br /><br />
                 <img class="img-responsive" src="images/floatingSubmenu/floating-submenu-content-tree.jpg" />
                 <br /><br />
             </li>
             <li>click the Insert a new item icon<br /><br />
                 <img class="img-responsive" src="images/floatingSubmenu/options-floating-submenu-add.jpg" /></li>
-        </ul>
+        </ol>
     </div>
 </div>
 
@@ -135,7 +134,7 @@
             <tr>
                 <td>Jump to CSS ID</td>
                 <td>Input</td>
-                <td>Enter ID &mdash; for the corresponding page section i.e. &mdash; <code>&lt;div id="[CSS ID]"&gt;... &lt;/div&gt;</code>
+                <td>Enter the CSS ID for the corresponding page section to jump to &mdash; enter this ID in the CSS ID field of the component, i.e. Row, Title, etc.
                 </td>
             </tr>
             <tr>
@@ -256,10 +255,7 @@
 .nav-stacked > li {
     float: none;
 }
-
-<strong>/*To make the side navigation fixed, add position: fixed*/</strong>
-.sidenav.affixed {
-    display: block;
+.affixed {
     position: fixed;
 }
 </pre>
@@ -272,6 +268,7 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Tips &amp; Troubleshooting</h4>
+        <p class="alert alert-primary">Because Floating Submenu is specific to a page, its not recommended on a base layout.</p>
     </div>
 </div>
 

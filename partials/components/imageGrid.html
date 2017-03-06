@@ -1,29 +1,44 @@
 <h3>Image Grid</h3>
 
-<h5 class="text-danger">Lightbox error when click image<br /></h5>
-<code>TypeError: n(...).ekkoLightbox is not a function</code>
+<p class="alert alert-danger">Lightbox error when click image &mdash;
+<code>TypeError: n(...).ekkoLightbox is not a function</code></p>
 
+<br />
 <br />
 <br />
 
 <div class="row">
-    <div class="col-xs-5 text-left">
-        <img class="img-responsive" src="images/icons/components/image-grid.png" />
+    <div class="col-xs-4 text-left">
+        <img class="img-responsive" src="images/icons/components/utility-navigation.png" />
     </div>
-    <div class="col-xs-7 text-left">
-        <h4>Allowed In</h4>
-        <ul class="allowed">
-            <li><a href="Container"><span class="badge">Container</span></a></li>
-            <li><a href="Row"><span class="badge">Row</span></a></li>
-            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
-        </ul>
+    <div class="col-xs-8 text-left">
+        <table width="100%">
+            <tr>
+                <td>
+                    <h4>Allowed In</h4>
+                    <ul class="allowed">
+                        <li><a href="Container"><span class="badge">Container</span></a></li>
+                        <li><a href="Row"><span class="badge">Row</span></a></li>
+                        <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Includes</h4>
+                    <ul class="allowed">
+                        <li><span class="badge text-info">Image Row</span></li>
+                        <li><a href="Row"><span class="badge">Row <em>(in Image Row)</em></span></a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
+
 
 <div style="clear:both"></div>
 <hr />
 
-<div class="row">
+<div class="row usage">
     <div class="col-xs-12">
         <h4>Usage</h4>
         <p></p>
@@ -35,18 +50,7 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Examples</h4>
-        <!--<h5>Site Builder</h5>
-        <img class="img-responsive" src="images/image/example-image-sb.jpg" />
-        <br />
-        <h5>Web</h5>
-        <img class="img-responsive" src="images/image/example-image-web.jpg" />
-        <table width="100%">
-            <tr>
-                <td width="27%"><code>img-circle</code></td>
-                <td width="27%"><code>img-rounded</code></td>
-                <td width="30%"><code>img-thumbnail</code></td>
-            </tr>
-        </table>-->
+
         <h5>Hover Styles - Gray Background</h5>
         <div class="col-xs-12 col-sm-2">
             <img class="img-responsive" src="images/imageGrid/example-image-grid-hover1.jpg" />
@@ -181,6 +185,62 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+&lt;div id="lightbox-wrapper"&gt;
+    &lt;div id="gallery" class="album-container" style=""&gt;
+        &lt;div class="album cf hover04 nogutter default"&gt;
+            &lt;div class="row" style="" id=""&gt;
+                &lt;div class="col-sm-3"&gt;
+                    &lt;div class="image" style=""&gt;
+                        &lt;a href="/-/media/Images/Components/Sample-Company/sitting-cat.ashx" class="thumb-link" data-toggle="lightbox" data-gallery="gallery1" data-title="Image Grid Image 1" alt="sitting cat"&gt;
+                            &lt;img src="/-/media/Images/Components/Sample-Company/sitting-cat.ashx?h=225&amp;w=400&amp;la=en&amp;hash=9EE06480E5062F62EB78170A6CCE80B22F219895" alt="sitting cat"&gt;
+                            &lt;div class="thumb-caption"&gt;
+                                &lt;h3&gt;Image Grid Image 1&lt;/h3&gt;
+                                &lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie mattis turpis nec consequat. Donec tristique vestibulum est, vel ultrices mi lacinia eu. Sed quis ornare nisi, non dignissim justo. &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/a&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-3"&gt;
+                    &lt;div class="image" style=""&gt;
+                        &lt;a href="/-/media/Images/Components/Sample-Company/puppy-pitbull.ashx" class="thumb-link" data-toggle="lightbox" data-gallery="gallery1" data-title="Image Grid Image 2" alt="puppy pitbull"&gt;
+                            &lt;img src="/-/media/Images/Components/Sample-Company/puppy-pitbull.ashx?h=225&amp;w=400&amp;la=en&amp;hash=9EC7E124CE16288B0DA39819F1961F146E8541E6" alt="puppy pitbull"&gt;
+                            &lt;div class="thumb-caption"&gt;
+                                &lt;h3&gt;Image Grid Image 2&lt;/h3&gt;
+                                &lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie mattis turpis nec consequat. Donec tristique vestibulum est, vel ultrices mi lacinia eu. Sed quis ornare nisi, non dignissim justo. &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/a&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-3"&gt;
+                    &lt;div class="image" style=""&gt;
+                        &lt;a href="/-/media/Images/Components/Sample-Company/cat-burrito.ashx" class="thumb-link" data-toggle="lightbox" data-gallery="gallery1" data-title="Image Grid Image 3" alt="Cat Burrito"&gt;
+                            &lt;img src="/-/media/Images/Components/Sample-Company/cat-burrito.ashx?h=225&amp;w=400&amp;la=en&amp;hash=6F063248C70423F238BC0D05CE83254C0A4AB0F9" alt="Cat Burrito"&gt;
+                            &lt;div class="thumb-caption"&gt;
+                                &lt;h3&gt;Image Grid Image 3&lt;/h3&gt;
+                                &lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie mattis turpis nec consequat. Donec tristique vestibulum est, vel ultrices mi lacinia eu. Sed quis ornare nisi, non dignissim justo. &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/a&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="col-sm-3"&gt;
+                    &lt;div class="image" style=""&gt;
+                        &lt;a href="/-/media/Images/Components/Sample-Company/running-dog.ashx" class="thumb-link" data-toggle="lightbox" data-gallery="gallery1" data-title="Image Grid Image 4" alt="running dog"&gt;
+                            &lt;img src="/-/media/Images/Components/Sample-Company/running-dog.ashx?h=225&amp;w=400&amp;la=en&amp;hash=9F11E993F139F86D764E3713AB17CA0505F6AAC0" alt="running dog"&gt;
+                            &lt;div class="thumb-caption"&gt;
+                                &lt;h3&gt;Image Grid Image 4&lt;/h3&gt;
+                                &lt;span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie mattis turpis nec consequat. Donec tristique vestibulum est, vel ultrices mi lacinia eu. Sed quis ornare nisi, non dignissim justo. &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/a&gt;
+
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 </pre>
         </code>
     </div>
@@ -424,6 +484,15 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Tips &amp; Troubleshooting</h4>
+        <h5>Hover Style 4 with Caption</h5>
+        <p>Add the correction below to Custom Stylesheet if using a Hover Style 4 with a caption.</p>
+<code>
+<pre>
+.hover04 .thumb-link .thumb-caption h3 {
+    margin-top: 5%;
+}
+</pre>
+</code>
     </div>
 </div>
 

@@ -56,7 +56,7 @@
         <h4>Examples</h4>
         <h5>Site Builder</h5>
         <img class="img-responsive" src="images/listing/example-listing-sb.jpg" />
-        <p><em>Example: </em>Set to display images & summaries, max summary characters limit of 300, Link Text blank</p>
+        <p><em>Example: </em>Set to display summaries, max summary characters limit of 300, Link Text 'Apply'</p>
         <br />
         <h5>Web</h5>
         <img class="img-responsive" src="images/listing/example-listing-web.jpg" />
@@ -149,8 +149,8 @@
             </tr>
             </tbody>
         </table>
-        <p class="alert alert-info">
-            <i class="fa fa-info-circle" style="font-size:1.5em;position:relative;top:3px"></i>
+        <p class="alert alert-primary">
+            <i class="fa fa-info-circle"></i>
             <span>If <strong>Link Text</strong> is set here, it will override any input entered in the <em>Listing Item</em> content group options.</span>
         </p>
     </div>
@@ -190,13 +190,10 @@
             </tr>
             </tbody>
         </table>
-        <p class="alert alert-info">
-            <i class="fa fa-info-circle" style="font-size:1.5em;position:relative;top:3px"></i>
+        <p class="alert alert-primary">
+            <i class="fa fa-info-circle"></i>
             <span>If <strong>Link Text</strong> is set in the <em>Listing</em> content group options (parent), it will override any input here.</span>
         </p>
-
-        <!--<h5>Content Editor</h5>
-        <img class="img-responsive" src="images/listing/options-listing-attributes-ce.jpg" />-->
     </div>
 </div>
 
@@ -231,17 +228,17 @@
                 <td>Input</td>
                 <td>Alternate Text</td>
             </tr>
-            <tr style="color:#ccc">
+            <tr class="disabled">
                 <td>Width</td>
                 <td>Input</td>
                 <td>Set the width of the image if they are different than the dimensions of the original</td>
             </tr>
-            <tr style="color:#ccc">
+            <tr class="disabled">
                 <td>Height</td>
                 <td>Input</td>
                 <td>Set the height of the image if they are different than the dimensions of the original</td>
             </tr>
-            <tr style="color:#ccc">
+            <tr class="disabled">
                 <td>Keep Aspect Ratio</td>
                 <td>Checkbox</td>
                 <td></td>
@@ -258,11 +255,10 @@
             </tr>
             </tbody>
         </table>
-        <i class="text-danger fa fa-exclamation"></i>
-        <span class="small">
-            <strong>IMPORTANT</strong>
-        </span>
-        <small><em>&mdash; Items that are grayed out will not work within this component</em></small>
+        <p class="alert alert-danger">
+            <i class="fa fa-exclamation-triangle"></i>
+            Items that are grayed out will not work within this component
+        </p>
     </div>
 </div>
 

@@ -8,10 +8,9 @@
         <h4>Allowed In</h4>
         <ul class="allowed">
             <li><a href="Accordion"><span class="badge">Accordion</span></a></li>
-            <li><a href="Billboard_Slide"><span class="badge text-danger">Billboard Slide (Caption)</span></a></li>
+            <li><a href="Billboard_Slide"><span class="badge">Billboard Slide</span></a></li>
             <li><a href="Container"><span class="badge">Container</span></a></li>
             <li><a href="Modal_"><span class="badge">Modal</span></a></li>
-            <li><a href="Rich_Text_(RTE)"><span class="badge text-danger">Rich Text (RTE)</span></a></li>
             <li><a href="Row"><span class="badge">Row</span></a></li>
             <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
             <li><a href="Tabset"><span class="badge">Tabset</span></a></li>
@@ -25,8 +24,8 @@
 <div class="row">
     <div class="col-xs-12">
         <h4>Usage</h4>
-        <p>Provide contextual feedback messages for typical user actions using one of the four default bootstrap contextual classes
-            (<code>.danger</code>-<code>.info</code>-<code>.success</code>-<code>.warning</code>).<br />
+        <p>Provide contextual feedback messages for typical user actions using default bootstrap contextual classes
+            (<code>.danger</code>-<code>.primary</code>-<code>.info</code>-<code>.success</code>-<code>.warning</code>).<br />
             Use the contextual class <code>.primary</code> to define custom alert styles in the Custom Stylesheet CSS. <br />
             Optionally, configure to add a dismiss button to close the alert and if the alert should show again in a certain days time or never show again.</p>
 
@@ -108,7 +107,7 @@
             <tr>
                 <td>CSS Class</td>
                 <td>Input</td>
-                <td>Add CSS class</td>
+                <td>Add CSS class <i class="fa fa-exclamation-triangle text-danger"></i></td>
             </tr>
             <tr>
                 <td>Style</td>
@@ -117,6 +116,10 @@
             </tr>
             </tbody>
         </table>
+        <p class="alert alert-danger">
+            <i class="fa fa-exclamation-triangle"></i>
+            Classes added here are not populating &mdash; add a class to the parent element instead
+        </p>
     </div>
 </div>
 
@@ -138,6 +141,9 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+&lt;div class="alert alert-primary" role="alert" style="" data-alert-id="" data-alert-returns="0"&gt;
+   ...
+&lt;/div&gt;
 </pre>
         </code>
     </div>
@@ -158,6 +164,8 @@
 }
 .alert-dismissible {
     padding-right: 35px;
+}
+.alert-primary {
 }
 .alert-danger {
 background-color: #fdf7f7;

@@ -1,18 +1,32 @@
 <h3>Blockquote</h3>
 
 <div class="row">
-    <div class="col-xs-5 text-left">
+    <div class="col-xs-4 text-left">
         <img class="img-responsive" src="images/icons/components/blockquote.png" />
     </div>
-    <div class="col-xs-7 text-left">
-        <h4>Allowed In</h4>
-        <ul class="allowed">
-            <li><a href="Accordion"><span class="badge">Accordion</span></a></li>
-            <li><a href="Billboard_Slide"><span class="badge text-danger">Billboard Slide Caption</span></a></li>
-            <li><a href="Container"><span class="badge">Container</span></a></li>
-            <li><a href="Row"><span class="badge">Row</span></a></li>
-            <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
-        </ul>
+    <div class="col-xs-8 text-left">
+        <table width="100%">
+            <tr>
+                <td>
+                    <h4>Allowed In</h4>
+                    <ul class="allowed">
+                        <li><a href="Accordion"><span class="badge">Accordion</span></a></li>
+                        <li><a href="Billboard_Slide"><span class="badge">Billboard Slide</span></a></li>
+                        <li><a href="Container"><span class="badge">Container</span></a></li>
+                        <li><a href="Row"><span class="badge">Row</span></a></li>
+                        <li><a href="Row_Advanced"><span class="badge">Row Advanced</span></a></li>
+                    </ul>
+                </td>
+                <td>
+                    <h4>Includes</h4>
+                    <ul class="allowed">
+                        <li><span class="badge text-info">Text</span></li>
+                        <li><span class="badge text-info">Footer</span></li>
+                        <li><span class="badge text-info">Source Text</span></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 </div>
 
@@ -40,9 +54,13 @@
         <h5>Site Builder</h5>
         <img class="img-responsive" src="images/blockquote/example-blockquote-sb.jpg" />
         <br />
-        <h5>Web</h5>
-        <img class="img-responsive" src="images/blockquote/example-blockquote-web.jpg" />
+        <h5>Web - Default</h5>
+        <img class="img-responsive" src="images/blockquote/example-blockquote-default.jpg" />
+        <small><em><code>.blockquote</code></em></small>
         <br />
+        <h5>Web - Align Right</h5>
+        <img class="img-responsive" src="images/blockquote/example-blockquote-align-right.jpg" />
+        <small><em><code>.blockquote-reverse</code></em></small>
     </div>
 </div>
 
@@ -108,6 +126,26 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+<strong><em>/**default**/</em></strong>
+&lt;blockquote class="blockquote" style=""&gt;
+    &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet velit vel felis dictum sodales.
+    Donec volutpat ultrices felis sit amet tincidunt. Nullam sed auctor augue.
+    &lt;/p&gt;
+    &lt;footer&gt;
+        Satisfied Kitten Litter Owners&lt;i&gt;&lt;/i&gt;
+    &lt;/footer&gt;
+&lt;/blockquote&gt;
+<strong><em>/**align right**/</em></strong>
+&lt;blockquote class="blockquote-reverse" style=""&gt;
+    &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet velit vel felis dictum sodales.
+    Donec volutpat ultrices felis sit amet tincidunt. Nullam sed auctor augue.
+    &lt;/p&gt;
+    &lt;footer&gt;
+        Happy Puppy Owner&lt;i&gt;&lt;/i&gt;
+    &lt;/footer&gt;
+&lt;/blockquote&gt;
 </pre>
         </code>
     </div>
@@ -119,11 +157,19 @@
         <h4>Bootstrap Classes</h4>
         <code>
 <pre>
-blockquote {
+.blockquote {
     border-left: 5px solid #eee;
     font-size: 17.5px;
     margin: 0 0 20px;
     padding: 10px 20px;
+}
+.blockquote-reverse,
+blockquote.pull-right {
+    border-left: 0 none;
+    border-right: 5px solid #eee;
+    padding-left: 0;
+    padding-right: 15px;
+    text-align: right;
 }
 </pre>
         </code>

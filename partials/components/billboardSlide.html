@@ -29,10 +29,9 @@
         <h4>Examples</h4>
         <h5>Site Builder</h5>
         <img class="img-responsive" src="images/billboard/example-billboard-slide-sb.jpg" />
-        <p><em>Example: </em><code>max-height:300px;</code></p>
         <br />
         <h5>Web</h5>
-        <img class="img-responsive" src="images/billboard/example-billboard-slide-web.jpg" />
+        <img class="img-responsive" src="images/billboard/example-billboard.jpg" />
     </div>
 </div>
 
@@ -92,9 +91,9 @@
             <tr>
                 <td>Top Image Utility</td>
                 <td>Selection</td>
-                <td>Select top image utility style using bootstrap default class options<br />
+                <td>Select top image utility style using bootstrap default class options <i class="fa fa-info-circle"></i><br />
                     <ul>
-                        <li>center-block &mdash; <code>.center-block</code> <i class="fa fa-info-circle"></i></li>
+                        <li>center-block &mdash; <code>.center-block</code></li>
                     </ul>
                 </td>
             </tr>
@@ -120,52 +119,10 @@
             </tr>
             </tbody>
         </table>
-        <p class="alert alert-info">
-            <i class="fa fa-info-circle" style="font-size:1.5em;position:relative;top:3px"></i>
-            <span><strong>Center-block</strong> centers an image within its parent container.</span>
+        <p class="alert alert-primary">
+            <i class="fa fa-info-circle"></i>
+            <span><strong>Center-block</strong> centers an image within its parent container</span>
         </p>
-    </div>
-</div>
-
-<hr />
-
-<div class="row">
-    <div class="col-xs-12">
-        <h4>Bootstrap Classes</h4>
-<code>
-<pre>
-.center-block {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-.carousel-inner > .item {
-    display: none;
-    position: relative;
-    transition: left 0.6s ease-in-out 0s;
-}
-.carousel-inner > .item {
-    backface-visibility: hidden;
-    transition: transform 0.6s ease-in-out 0s;
-}
-.carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
-    left: 0;
-    transform: translate3d(0px, 0px, 0px);
-}
-.carousel-caption {
-    bottom: 20px;
-    color: #fff;
-    left: 15%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    position: absolute;
-    right: 15%;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-    z-index: 10;
-}
-</pre>
-</code>
     </div>
 </div>
 
@@ -175,14 +132,14 @@
     <div class="col-xs-12">
         <h4>Add Billboard Slide</h4>
         To insert an billboard slide you must do so from the Billboard item &mdash;<br /><br />
-            <ul>
+            <ol>
             <li>Using the content tree dropdown, navigate from Billboard Slide to Billboard<br /><br />
                 <img class="img-responsive" src="images/billboard/billboard-content-tree.jpg" />
                 <br /><br />
             </li>
             <li>click the Insert a new item icon<br /><br />
                 <img class="img-responsive" src="images/billboard/options-billboard-add.jpg" /></li>
-            </ul>
+            </ol>
     </div>
 </div>
 
@@ -237,6 +194,13 @@
         <h4>Code Sample</h4>
         <code>
 <pre>
+&lt;div class="item active" style="" id=""&gt;
+    &lt;img src="/-/media/[image_path].ashx?h=600&amp;w=1300&amp;la=en" alt="Girl and Dog"&gt;
+    &lt;div class="carousel-caption clearfix"&gt;
+        &lt;h2 style="text-align: Left"&gt;Billboard Slide 1&lt;/h2&gt;
+        &lt;h4 style="text-align: Left"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry.&lt;/h4&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 </pre>
         </code>
     </div>
@@ -249,6 +213,38 @@
         <h4>Bootstrap Classes</h4>
         <code>
 <pre>
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.carousel-inner > .item {
+    display: none;
+    position: relative;
+    transition: left 0.6s ease-in-out 0s;
+}
+.carousel-inner > .item {
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out 0s;
+}
+.carousel-inner > .item.next.left,
+.carousel-inner > .item.prev.right,
+.carousel-inner > .item.active {
+    left: 0;
+    transform: translate3d(0px, 0px, 0px);
+}
+.carousel-caption {
+    bottom: 20px;
+    color: #fff;
+    left: 15%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
 #carousel-home .carousel-caption {
     background: #333 none repeat scroll 0 0;
     padding-bottom: 30px;
@@ -272,9 +268,9 @@
         Alternatively, you can reorder the slides so that the one you wish to edit is at position 1.
         To reorder billboard slides, click the up or down arrow icons <img src="images/icons/icon-reorder.jpg" />.</p>
         <h5>Image Sizing</h5>
-        <p>Size background images to a relative height and width that you wish for display prior to upload.</p>
-        The above example resized appropriately from to 1410x300 results in the full background image filling the contained section.
-        <img class="img-responsive" src="images/billboard/example-billboard-slide-web-sized.jpg" />
+        <p>Size background images to a relative height and width that you wish for desktop display prior to upload.
+        Sizing appropriately results in the full background image filling the contained section for various viewport widths.</p>
+        <img class="img-responsive" src="images/billboard/responsive-billboard-slide.jpg" />
     </div>
 </div>
 
